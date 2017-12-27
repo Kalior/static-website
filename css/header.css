@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  background-color: #333;
+  background-image: url("../images/TiomanAtNightSmaller.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  box-shadow: 0px 4px 16px 1px #00000094;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-top: 205px;
+  font-family: "Space Mono", monospace;
+  color: #eee;
+  font-size: 5em;
+}
+
+.subtitle {
+  margin-top: -20px;
+  font-family: "Space Mono", monospace;
+  color: #111;
+  font-size: 1em;
+  z-index: 1;
+}

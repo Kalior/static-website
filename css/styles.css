@@ -1,0 +1,30 @@
+@import url(actions.css);
+@import url(project.css);
+@import url(header.css);
+@import url(photography.css);
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 1100px;
+  justify-content: space-around;
+}
+
+.item {
+  margin: 30px 5px 30px 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0px;
+  color: #444;
+  font-family: "Inconsolata", monospace;
+}

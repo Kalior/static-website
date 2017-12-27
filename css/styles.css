@@ -1,3 +1,4 @@
+@import url(fonts.css);
 @import url(actions.css);
 @import url(project.css);
 @import url(header.css);
@@ -17,6 +18,18 @@
 
 .item {
   margin: 30px 5px 30px 5px;
+}
+
+.hoverable {
+  transition: opacity 0.25s ease-out, box-shadow 0.25s ease-out;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 4px #00000094;
+}
+
+.hoverable:hover {
+  opacity: 0.9;
+  box-shadow: 0px 0px 15px 0px #00000094;
 }
 
 img {

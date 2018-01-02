@@ -3,6 +3,7 @@
 @import url(project.css);
 @import url(header.css);
 @import url(photography.css);
+@import url(footer.css);
 
 .container {
   display: flex;

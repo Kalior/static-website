@@ -19,7 +19,7 @@ async function animateSubtitle() {
     for (let character of sentence) {
       subtitleElement.append(character)
       if (character != " ") {
-        await sleep(70);
+        await sleep(40 + (Math.random() * 60));
       }
     }
     subtitleElement.append('.')
@@ -27,4 +27,4 @@ async function animateSubtitle() {
   }
 }
 
-animateSubtitle()
+$(window).on('DOMContentLoaded load', animateSubtitle)

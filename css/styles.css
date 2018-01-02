@@ -17,7 +17,7 @@
 }
 
 .item {
-  margin: 30px 5px 30px 5px;
+  padding: 30px 10px 30px 10px;
 }
 
 .hoverable {
@@ -29,7 +29,7 @@
 
 .hoverable:hover {
   opacity: 0.9;
-  box-shadow: 0px 0px 15px 0px #00000094;
+  box-shadow: 0px 0px 10px 0px #00000094;
 }
 
 img {
@@ -40,4 +40,5 @@ body {
   margin: 0px;
   color: #444;
   font-family: "Inconsolata", monospace;
+  /*background: linear-gradient(white, white, #ccc, white, white);*/
 }

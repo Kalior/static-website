@@ -27,4 +27,4 @@ async function animateSubtitle() {
   }
 }
 
-$(window).on('DOMContentLoaded load', animateSubtitle)
+$(window).on('DOMContentLoaded', animateSubtitle)

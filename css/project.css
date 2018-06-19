@@ -13,6 +13,9 @@
   .project {
     flex-flow: column nowrap;
   }
+  .project .photo {
+    padding-top: 20px;
+  }
 }
 
 .project {

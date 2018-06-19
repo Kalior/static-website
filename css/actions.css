@@ -4,7 +4,7 @@
   align-content: flex-end;
 }
 
-.actions a {
+.actions a, .actions div {
   flex: 1;
   line-height: 1;
   text-align: center;
@@ -25,4 +25,8 @@
 
 .actions .explore {
   background: linear-gradient(120deg, #5d6196, #000, #6ba1c8);
+}
+
+.actions .disabled {
+  background: #666;
 }

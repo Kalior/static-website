@@ -3,28 +3,28 @@ function sleep(ms) {
 }
 
 async function animateSubtitle() {
-  let subtitleElement = $('.subtitle')
+  let subtitleElement = $(".subtitle");
 
-  let width = subtitleElement.width() + 7
-  subtitleElement.width(width)
+  let width = subtitleElement.width() + 7;
+  subtitleElement.width(width);
 
-  let text = subtitleElement.text()
-  subtitleElement.text("")
+  let text = subtitleElement.text();
+  subtitleElement.text("");
 
-  let sentences = text.split(".")
-  sentences.splice(-1, 1)
+  let sentences = text.split(".");
+  sentences.splice(-1, 1);
 
   await sleep(500);
   for (let sentence of sentences) {
     for (let character of sentence) {
-      subtitleElement.append(character)
+      subtitleElement.append(character);
       if (character != " ") {
-        await sleep(40 + (Math.random() * 60));
+        await sleep(40 + Math.random() * 60);
       }
     }
-    subtitleElement.append('.')
+    subtitleElement.append(".");
     await sleep(500);
   }
 }
 
-$(window).on('DOMContentLoaded', animateSubtitle)
+$(window).on("DOMContentLoaded", animateSubtitle);

@@ -24,7 +24,7 @@
 }
 
 .actions .explore {
-  background: linear-gradient(120deg, #5d6196, #000, #6ba1c8);
+  background: linear-gradient(120deg, #5d6196, #000, #6ba1c8), #6ba1c8;
 }
 
 .actions .disabled {

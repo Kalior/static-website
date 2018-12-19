@@ -48,8 +48,12 @@
 }
 
 .subtitle {
-  position: absolute;
   font-family: "Space Mono", monospace;
   color: #111;
   z-index: 1;
+}
+
+.center-container {
+  display:flex;
+  align-items: center;
 }

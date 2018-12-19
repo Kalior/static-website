@@ -3,14 +3,20 @@
   color: #eee;
   display: flex;
   align-items: center;
-
-  padding: 40px 60px;
+  box-shadow: 0px -4px 16px 0px #00000094;
+  padding: 30px 25px;
   margin-top: 30px;
+}
+
+.socials-header {
+  font-family: "Space Mono";
+  display: inline;
+  font-weight: 300;
 }
 
 .socials {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .socials a {
@@ -27,4 +33,3 @@
 .socials a:hover {
   color: #9fa1eb;
 }
-

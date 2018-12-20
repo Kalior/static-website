@@ -8,7 +8,7 @@ async function animateSubtitle() {
   let text = subtitleElement.text();
   subtitleElement.text("");
 
-  let sentences = ["Software engineer.", "Musician.", "Photographer.", "Programmer.", "Phd. Student."]
+  let sentences = ["Software engineer.", "Musician.", "Photographer.", "Programmer."]
 
   await sleep(500);
   while (true) {

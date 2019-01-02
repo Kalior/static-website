@@ -1,11 +1,11 @@
 @media (min-width: 900px) {
   .title {
     font-size: 5em;
-    margin-top: 405px;
+    margin-top: 5em;
   }
   .subtitle {
     font-size: 1em;
-    margin-top: 505px;
+    margin-top: 31.4em;
   }
   .header {
     height: 500px;
@@ -14,11 +14,11 @@
 @media (max-width: 900px) {
   .title {
     font-size: 2em;
-    margin-top: 160px;
+    margin-top: 5em;
   }
   .subtitle {
     font-size: 0.8em;
-    margin-top: 205px;
+    margin-top: 15.6em;
   }
   .header {
     height: 200px;

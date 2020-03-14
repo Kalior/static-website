@@ -1,138 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/5e619ee808.js" crossorigin="anonymous"></script>
+    <title>Joel Gustafsson</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Joel Gustafsson</title>
-  <link rel="stylesheet" href="css/styles.css">
-</head>
+  <body>
+    <div class="container">
+      <div class="my-face"></div>
+      <div class="content">
+        <header>
+          <h1 class="title">Joel Gustafsson</h1>
+          <p class="subtitle">Bioinformatician and Software engineer.</p>
+        </header>
 
-<body>
-  <div class="container">
-    <div class="header">
-      <div class="title">Joel Gustafsson</div>
-      <div class="subtitle">PhD student. Software engineer. Geek. Musician.</div>
-    </div>
-
-    <div class="content">
-
-      <div class="project item">
-        <div class="photo">
-          <a href="https://github.com/Kalior/openpose-tda-action-recognition">
-            <img class="hoverable" src="images/action-recognition.png">
-          </a>
+        <div>
+          <h2 class="with-line">Bio</h2>
+          <p>
+            PhD student at the Department of Infectious Diseases at the Sahlgrenska Academy in Gothenburg, Sweden.  Professionally, I write code to help prevent future virus outbreaks.  When not saving the world, I play guitar, photograph, and sleep.
+          </p>
         </div>
-        <div class="description">
-          <div class="text">
-            <h1>Action recognition using OpenPose and TDA</h1>
-            I spent the summer of 2018 at Fujitsu Centre of Excellence of AI at École Polytechnique in Paris, France.
-            There, I developed a machine learning system for classifying actions based on <a href="https://github.com/CMU-Perceptual-Computing-Lab/openpose">OpenPose</a>
-            (a cnn which detects the position of body parts of people in an image), and TDA (topological data anlysis).
-            The project gave me plenty of opportunity to develop my understanding of how to work with and combine
-            multiple machine learning tools into a powerful classifier.
+
+        <div class="projects">
+          <h2 class="with-line">Projects</h2>
+          <div class="project">
+            <a class="hoverable" href="https://github.com/Kalior/openpose-tda-action-recognition">Action Recognition using Openpose and TDA</a>
           </div>
-          <div class="actions">
-            <a class="source hoverable" href="https://github.com/Kalior/openpose-tda-action-recognition">Source</a>
+
+          <div class="project">
+            <a class="hoverable" href="http://publications.lib.chalmers.se/records/fulltext/255511/255511.pdf" >Clustering Genomic Signatures</a>
           </div>
+
+          <div class="project">
+            <a class="hoverable" href="https://clocks.internetjoel.com">Stupid clocks</a>
+          </div>
+
+          <div class="project">
+            <a class="hoverable" href="https://instrument.joelgustafsson.com">Web instrument</a>
+          </div>
+
         </div>
-      </div>
-
-      <div class="photography item">
-        <img src="images/madagaskar.jpg">
-      </div>
-
-      <div class="project item">
-        <div class="description">
-          <div class="text">
-            <h1>Clustering Genomic Signatures</h1>
-            For my master's thesis, I developed a fast and accurate clustering method for genomic signatures, with a
-            primary application of viruses. In summary, the process is to train a variable length Markov model
-            (referred to as a genomic signature) from the virus DNA sequence, measure the differences between the
-            models using a new distance function, and cluster the models using average-link clustering.
-          </div>
-          <div class="actions">
-            <a class="source hoverable" href="https://github.com/kalior/clustering-genomic-signatures">Source</a>
-            <a class="explore hoverable" href="http://publications.lib.chalmers.se/records/fulltext/255511/255511.pdf">Read</a>
-          </div>
+        <div class="links">
+          <h2 class="with-line">Links</h2>
+          <a class="hoverable" href="https://Github.com/kalior">GitHub</a>
+          <a class="hoverable" href="https://facebook.com/internetjoel">Facebook</a>
+          <a class="hoverable" href="https://twitter.com/ethernetjoel">Twitter</a>
+          <a class="hoverable" href="https://www.linkedin.com/in/joel-gustafsson-b47312131/">Linkedin</a>
+          <a class="hoverable" href="resume.html">Resume</a>
         </div>
-        <div class="photo">
-          <a href="https://github.com/kalior/clustering-genomic-signatures">
-            <img class="hoverable" src="images/clustering.jpg">
-          </a>
-        </div>
-      </div>
-
-      <div class="photography item">
-        <img src="images/bird.JPG">
-      </div>
-
-      <div class="project item">
-        <div class="photo">
-          <a href="https://clocks.internetjoel.com">
-            <img class="hoverable" src="images/clocks.png">
-          </a>
-        </div>
-        <div class="description">
-          <div class="text">
-            <h1>Stupid clocks</h1>
-            A personal project for the sake of satisfying my insanity. It is a collection of either stupid or
-            insufficient way to tell time. Two of my personal favourites are the prime clock (only displays each digit
-            in the clock if it is prime) and the map clock (translates the current time to a position on the earth). If
-            <i>you</i> have any cool ideas for a clock, feel free to contact me or submit a pull request on GitHub.
-          </div>
-          <div class="actions">
-            <a class="source hoverable" href="https://github.com/kalior/clocks">Source</a>
-            <a class="explore hoverable" href="https://clocks.internetjoel.com">Explore</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="photography item">
-        <img src="images/Cameron_highlands-1.jpg">
-      </div>
-
-      <div class="project item">
-        <div class="description">
-          <div class="text">
-            <h1>Web instrument</h1>
-            As part of my interest in music, I wanted to develop a web interface for a digital instrument. The
-            interface allows a user to manually set the envelope (attack, decay etc.), the overtones, some
-            low-frequency modulation of the instrument as well as what short melody it should play. It also allows a
-            user to add more instruments in order to have them interact. <br><br>
-
-            The interface relies heavily on the Web Audio API, which turns out isn't really optimised for what I wanted
-            to do. If you play around with the interface, you may notice some audio artefacts. If that is the case, try
-            to minimise how many overtones you use.
-          </div>
-          <div class="actions">
-            <a class="source hoverable" href="https://github.com/kalior/web-instrument">Source</a>
-            <a class="explore hoverable" href="https://instrument.joelgustafsson.com">Explore</a>
-          </div>
-        </div>
-        <div class="photo">
-          <a href="https://instrument.joelgustafsson.com">
-            <img class="hoverable" src="images/instrument.png">
-          </a>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="footer">
-      <div class="socials">
-        <div class="socials-header">Find me</div>
-        <a href="https://Github.com/kalior">GitHub</a>
-        <a href="https://facebook.com/internetjoel">Facebook</a>
-        <a href="https://twitter.com/ethernetjoel">Twitter</a>
-        <a href="https://www.linkedin.com/in/joel-gustafsson-b47312131/">Linkedin</a>
-        <a href="resume.html">Resume</a>
       </div>
     </div>
-  </div>
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/application.js"></script>
-</body>
-
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/application.js"></script>
+  </body>
 </html>

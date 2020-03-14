@@ -9,33 +9,13 @@
     max-width: 48%;
   }
 }
-@media (max-width: 900px) {
-  .project {
-    flex-flow: column nowrap;
-  }
-  .project .photo {
-    padding-top: 20px;
-  }
-}
 
 .project {
-  display: flex;
-  justify-content: space-between;
+  margin: 1em 0em;
 }
 
-.description {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
+
+.project img {
+  justify-self: end;
 }
 
-.project .photo {
-  display: flex;
-  align-items: center;
-}
-
-.text {
-  padding: 30px;
-  padding-top: 0px;
-  line-height: 1.8;
-}

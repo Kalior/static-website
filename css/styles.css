@@ -38,9 +38,6 @@ body {
 }
 
 .content {
-  padding: 0em 3em;
-  height: 100vh;
-  width: 50vw;
   display: flex;
   flex-flow: column;
   overflow-y: scroll;
@@ -79,4 +76,40 @@ a::after {
 
 .links a {
   margin: 0 0.2em 0 0;
+}
+
+@media (min-width: 900px) {
+  .my-face {
+    width: 50%;
+    width: 50vw;
+    height: 100%;
+    height: 100vh;
+  }
+  .content {
+    width: 50%;
+    width: 50vw;
+    height: 100vh;
+    padding: 0em 3em;
+  }
+  .container {
+    flex-flow:  row;
+  }
+}
+
+@media (max-width: 900px) {
+  .my-face {
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 2em;
+  }
+  .content {
+    width: auto;
+    height: auto;
+    padding: 0em 1em;
+  }
+  .container {
+    flex-flow:column;
+  }
 }
